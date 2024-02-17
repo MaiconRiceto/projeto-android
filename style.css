@@ -10,10 +10,12 @@ body {
 
 header {
     background-image: linear-gradient(to bottom, #2FA866, #063D1E);
-    height: 150px;
+    height: 200px;
     color: white;
     text-align: center;
     padding-top: 30px;
+
+
 }
 
 header>p {
@@ -98,7 +100,7 @@ footer {
     text-align: center;
 }
 
-div.video{
+div.video {
     background-color: #063D1E;
     margin-bottom: 30px;
     margin: 0px -10px;
@@ -106,12 +108,13 @@ div.video{
     padding-bottom: 55.2%;
     position: relative;
 }
-div.video > iframe{
-position: absolute;
-top: 5%;
-left: 5%;
-width: 90%;
-height: 90%;
+
+div.video>iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 main>p {
